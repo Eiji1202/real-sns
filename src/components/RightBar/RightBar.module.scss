@@ -1,0 +1,144 @@
+.rightBar {
+  flex: 3.5;
+
+  .rightBarWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    .eventWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .eventTitle {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .starImage {
+          width: 40px;
+          height: auto;
+        }
+      }
+
+      .eventImage {
+        width: 100%;
+        // max-width: 500px;
+        border-radius: 8px;
+      }
+    }
+
+    .onlineFriendWrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+
+      .onlineFriendTitle {
+        font-size: 18px;
+      }
+
+      .friendListWrapper {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+        .friendListItem {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+
+          .isOnline {
+            position: relative;
+
+            .friendImg {
+              width: 40px;
+              height: 40px;
+              object-fit: cover;
+              border-radius: 50%;
+            }
+
+            .isOnlineSign {
+              background-color: purple;
+              position: absolute;
+              width: 12px;
+              height: 12px;
+              border-radius: 50%;
+              left: 0;
+              top: -2px;
+              border: 2px solid #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .promotionWrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+
+      .promotionTitle {
+        font-size: 18px;
+      }
+
+      .promotionListWrapper {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        .promotionItem {
+          .promotionImage {
+            width: 85%;
+            border-radius: 8px;
+          }
+
+          .promotionName {
+            font-size: 14px;
+            color: #555;
+          }
+        }
+      }
+    }
+
+    .profileRightBarInfoWrapper {
+      margin-bottom: 24px;
+
+      .info {
+        display: flex;
+        align-items: center;
+        color: #666;
+      }
+    }
+
+    .profileRightBarFollowingUsers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: space-between;
+
+      .followingUser {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+
+        .followingImage {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .profileRightBarTitle {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.sidebar {
+  flex: 2.5;
+  height: 100vh;
+}
+.sidebar .sidebarWrapper {
+  padding: 20px;
+}
+.sidebar .sidebarWrapper .menuListWrapper {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.sidebar .sidebarWrapper .menuListWrapper .menuListItem {
+  display: flex;
+  align-items: center;
+  padding: 4px 6px;
+  box-shadow: 0px 3px 15px -3px #777777;
+  border-radius: 4px;
+  transition: all 0.1s;
+}
+.sidebar .sidebarWrapper .menuListWrapper .menuListItem:hover {
+  box-shadow: none;
+  transform: translateY(3px);
+  cursor: pointer;
+}
+.sidebar .sidebarWrapper .menuListWrapper .menuListItem .sidebarIcon {
+  font-size: 32px;
+  margin-right: 8px;
+}
+.sidebar .sidebarWrapper .menuListWrapper .menuListItem .sidebarText {
+  font-size: 20px;
+}
+.sidebar .sidebarWrapper .hr {
+  margin: 20px 0;
+}
+.sidebar .sidebarWrapper .friendListWrapper {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.sidebar .sidebarWrapper .friendListWrapper .friendListItem {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebarWrapper .friendListWrapper .friendListItem .friendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 8px;
+}/*# sourceMappingURL=Sidebar.module.css.map */

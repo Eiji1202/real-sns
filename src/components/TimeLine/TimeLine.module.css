@@ -1,0 +1,15 @@
+.timeLine {
+  flex: 6;
+}
+.timeLine .timeLineWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.timeLine .timeLineWrapper .posts {
+  height: auto;
+  box-shadow: 0px 3px 15px -3px #777777;
+  border-radius: 4px;
+  padding: 0 16px;
+}/*# sourceMappingURL=TimeLine.module.css.map */

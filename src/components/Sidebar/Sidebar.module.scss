@@ -1,0 +1,64 @@
+.sidebar {
+  flex: 2.5;
+  height: 100vh;
+
+  .sidebarWrapper {
+    padding: 20px;
+
+    .menuListWrapper {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+
+      .menuListItem {
+        display: flex;
+        align-items: center;
+        padding: 4px 6px;
+        box-shadow: 0px 3px 15px -3px #777777;
+        border-radius: 4px;
+        transition: all 0.1s;
+
+        &:hover {
+          box-shadow: none;
+          transform: translateY(3px);
+          cursor: pointer;
+        }
+
+        .sidebarIcon {
+          font-size: 32px;
+          margin-right: 8px;
+        }
+
+        .sidebarText {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .hr {
+      margin: 20px 0;
+    }
+
+    .friendListWrapper {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+
+      .friendListItem {
+        display: flex;
+        align-items: center;
+
+        .friendImg {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          cursor: pointer;
+          object-fit: cover;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

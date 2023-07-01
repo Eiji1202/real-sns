@@ -1,0 +1,120 @@
+.rightBar {
+  flex: 3.5;
+}
+.rightBar .rightBarWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.rightBar .rightBarWrapper .eventWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.rightBar .rightBarWrapper .eventWrapper .eventTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rightBar .rightBarWrapper .eventWrapper .eventTitle .starImage {
+  width: 40px;
+  height: auto;
+}
+.rightBar .rightBarWrapper .eventWrapper .eventImage {
+  width: 100%;
+  border-radius: 8px;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .onlineFriendTitle {
+  font-size: 18px;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .friendListWrapper {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .friendListWrapper .friendListItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .friendListWrapper .friendListItem .isOnline {
+  position: relative;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .friendListWrapper .friendListItem .isOnline .friendImg {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.rightBar .rightBarWrapper .onlineFriendWrapper .friendListWrapper .friendListItem .isOnline .isOnlineSign {
+  background-color: purple;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: 0;
+  top: -2px;
+  border: 2px solid #fff;
+}
+.rightBar .rightBarWrapper .promotionWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.rightBar .rightBarWrapper .promotionWrapper .promotionTitle {
+  font-size: 18px;
+}
+.rightBar .rightBarWrapper .promotionWrapper .promotionListWrapper {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.rightBar .rightBarWrapper .promotionWrapper .promotionListWrapper .promotionItem .promotionImage {
+  width: 85%;
+  border-radius: 8px;
+}
+.rightBar .rightBarWrapper .promotionWrapper .promotionListWrapper .promotionItem .promotionName {
+  font-size: 14px;
+  color: #555;
+}
+.rightBar .rightBarWrapper .profileRightBarInfoWrapper {
+  margin-bottom: 24px;
+}
+.rightBar .rightBarWrapper .profileRightBarInfoWrapper .info {
+  display: flex;
+  align-items: center;
+  color: #666;
+}
+.rightBar .rightBarWrapper .profileRightBarFollowingUsers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
+.rightBar .rightBarWrapper .profileRightBarFollowingUsers .followingUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.rightBar .rightBarWrapper .profileRightBarFollowingUsers .followingUser .followingImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rightBar .rightBarWrapper .profileRightBarTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=RightBar.module.css.map */

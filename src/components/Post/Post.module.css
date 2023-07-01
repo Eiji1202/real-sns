@@ -1,0 +1,77 @@
+.post {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #c8c8c8;
+}
+.post:last-child {
+  border-bottom: none;
+}
+.post .postWrapper {
+  padding: 16px 0;
+}
+.post .postWrapper .postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .postWrapper .postTop .postTopLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.post .postWrapper .postTop .postTopLeft .profileIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.post .postWrapper .postTop .postTopLeft .userName {
+  font-size: 18px;
+  font-weight: bold;
+}
+.post .postWrapper .postTop .postTopLeft .postDate {
+  font-size: 14px;
+  color: #777;
+}
+.post .postWrapper .postCenter {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.post .postWrapper .postCenter .postImage {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.post .postWrapper .postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .postWrapper .postBottom .postBottomLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.post .postWrapper .postBottom .postBottomLeft .likeIcon {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.post .postWrapper .postBottom .postBottomLeft .likeIcon:hover {
+  opacity: 0.7;
+}
+.post .postWrapper .postBottom .postBottomLeft .likedCount {
+  font-size: 14px;
+}
+.post .postWrapper .postBottom .postComment {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.post .postWrapper .postBottom .postComment:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=Post.module.css.map */
